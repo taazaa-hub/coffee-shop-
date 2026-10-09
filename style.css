@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.roboto-main {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.roboto-slab-main {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Fixed typo: changed '-' to '*' */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fffbf2;
+}
+
+nav {
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0.5rem 0.6rem;
+    padding: 0.5rem 1rem;
+}
+
+nav ul li:hover {
+    background-color: #ac7e68;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-color {
+    color: #ac7e68;
+}
+
+/* ehnii page */
+
+header {
+    background: url("home1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header .header-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 0 1rem;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 4rem;
+}
+
+header p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.second-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    padding: 3rem 6rem;
+}
+
+.second-content-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.second-content-item p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+.second-content-pic {
+    background: url("home-image-1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.service {
+    background: url("home2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.service-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.service-content h2 {
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    background-color: #ac7e68;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+}
+
+.btn:hover {
+    background-color: #8c6350;
+}
+
+.reviews {
+    padding: 3rem 6rem;
+}
+
+.reviews h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.review-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.review-item {
+    width: 50%;
+}
+
+.review-item p {
+    font-style: italic;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.review-item h4 {
+    margin-bottom: 0.3rem;
+}
+
+.stars {
+    color: #ac7e68;
+    font-size: 0.8rem;
+}
+
+/* ---------- header heseg ---------- */
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 3rem;
+    align-items: center;
+    padding: 3rem 6rem;
+}
+
+.about-pic {
+    background: url("port-1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    justify-self: center;
+}
+
+.about-text article {
+    margin-bottom: 3rem;
+}
+
+.about-text span {
+    font-weight: bold;
+}
+
+.about-text h3 {
+    margin: 0.3rem 0 0.8rem 0;
+}
+
+.about-text p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.overlay-section {
+    background: url("home3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.overlay-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 6rem;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+}
+
+.overlay-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.overlay-content p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+/* ---------- menu heseg ---------- */
+
+.menu {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    padding: 3rem 4rem;
+}
+
+.menu-pic {
+    background: url("home-image-2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 450px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.3);
+}
+
+.menu-list {
+    width: 60%;
+    padding: 0 2rem;
+}
+
+.menu-list h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.menu-item {
+    margin-bottom: 1.2rem;
+}
+
+.menu-item-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item-top h4 {
+    text-transform: uppercase;
+}
+
+.menu-item p {
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
+}
+
+/* ---------- Footer heseg ---------- */
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.8rem;
+}
+
+
+/* ==========================================
+   RESPONSIVE DESIGN (MEDIA QUERIES)
+   ========================================== */
+
+/* Tablets / Medium screens (up to 992px) */
+@media (max-width: 992px) {
+    .second-content,
+    .about,
+    .reviews {
+        padding: 3rem 2rem;
+    }
+
+    .overlay-content {
+        padding: 0 2rem;
+    }
+
+    .menu {
+        padding: 3rem 1.5rem;
+    }
+}
+
+/* Mobile Phones (up to 768px) */
+@media (max-width: 768px) {
+    /* Navigation Bar */
+    nav {
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 1rem;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav ul li {
+        margin: 0.2rem;
+        padding: 0.4rem 0.6rem;
+    }
+
+    /* Hero Header */
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    header p {
+        font-size: 1.1rem;
+    }
+
+    /* Grid Sections -> Single Column */
+    .second-content {
+        grid-template-columns: 1fr;
+        padding: 2rem 1.5rem;
+        gap: 1.5rem;
+    }
+
+    .second-content-pic {
+        display: none;
+    }
+
+    /* About Section */
+    .about {
+        grid-template-columns: 1fr;
+        padding: 2rem 1.5rem;
+        gap: 2rem;
+    }
+
+    .about-pic {
+        width: 200px;
+        height: 200px;
+    }
+
+    /* Reviews Section */
+    .reviews {
+        padding: 2rem 1.5rem;
+    }
+
+    .review-list {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .review-item {
+        width: 100%;
+    }
+
+    /* Overlay Section */
+    .overlay-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .overlay-content {
+        padding: 0 1.5rem;
+    }
+
+    /* Menu Section */
+    .menu {
+        flex-direction: column;
+        padding: 2rem 1.5rem;
+    }
+
+    .menu-pic {
+        width: 100%;
+        height: 250px;
+    }
+
+    .menu-list {
+        width: 100%;
+        padding: 0;
+    }
+}
